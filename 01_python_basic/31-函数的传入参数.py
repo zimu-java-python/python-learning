@@ -8,4 +8,4 @@ def add(x,y,z):
     print(f"{x} + {y} + {z} = {result}")
 
 # 调用函数
-add(int(input("请输入第一个数字：")),int(input("请输入第二个数字：")),int(input("请输入第二个数字：")))
+add(int(input("请输入第一个数字：")),int(input("请输入第二个数字：")),int(input("请输入第三个数字：")))
