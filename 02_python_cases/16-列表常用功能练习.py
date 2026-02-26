@@ -12,15 +12,14 @@ name_list.append(31)
 print(name_list)
 
 # 追加一个新列表[29,33,30]，到列表的尾部
-new_list = [29,33,30]
-name_list.append(new_list)
+name_list.extend([29,33,30])
 print(name_list)
 
 # 取出第一个元素（21）
 print(name_list[0])
 
 # 取出最后一个元素（30）
-print(name_list[-1][-1])
+print(name_list[-1])
 
 # 查找元素31，在列表的下标位置
 index = name_list.index(31)
